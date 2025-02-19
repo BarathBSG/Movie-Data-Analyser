@@ -1,0 +1,39 @@
+implements Comparable<Movie>
+
+e.g string s = title, year, ageRating, genre, duration, rating *IN THIS ORDER ONLY
+
+class Movie (s)
+
+split s into string array with 5 strings
+
+String title
+string ageRating
+string genre
+int year
+int duration
+double IMDBrating
+
+all private(accessed by accessors)
+
+title = array[0]
+year = int(array[1])
+ageRating = array[2]
+genre = array[3]
+duration = int(array[4])
+rating = double(array[5])
+
+Constructors
+
+public Movie, 
+ToString
+
+Compareto method (or whatever comparable interface needs)
+
+Class MovieDatabase(Movie object)
+to make an object for every movie in the file, ideally done by ReadFile() method
+
+CANNOT DO MOVIEDATABASE CLASS WITHOUT READFILE FUNCTION
+
+ReadFile()
+
+GeneralQueries()
